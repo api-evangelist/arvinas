@@ -1,7 +1,18 @@
 aid: arvinas
 name: Arvinas
-description: Arvinas is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Arvinas is a clinical-stage biopharmaceutical company (NASDAQ: ARVN)
+  headquartered in New Haven, Connecticut, developing targeted protein
+  degradation therapeutics using its proprietary PROTAC (proteolysis targeting
+  chimera) Discovery Engine. PROTAC molecules are heterobifunctional protein
+  degraders that harness the body's natural protein-disposal system to eliminate
+  disease-causing proteins rather than merely inhibiting them, with a therapeutic
+  focus on oncology and neurology. Arvinas developed the first FDA-approved PROTAC
+  protein degrader, VEPPANU (vepdegestrant). The company was founded on research
+  from Yale University and maintains research partnerships across the industry.
+  This profile was surfaced as a portfolio company of Canaan Partners and added to
+  the API Evangelist network; Arvinas is a life-sciences company and does not
+  publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/arvinas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,48 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Pharmaceutical
+- Protein Degradation
+- PROTAC
+- Oncology
+- Neurology
+- Life Sciences
+- Drug Discovery
+image: https://arvinas.b-cdn.net/wp-content/uploads/2024/10/OG_Logo.jpg
 apis: []
+common:
+- type: Website
+  url: https://www.arvinas.com/
+- type: PrivacyPolicy
+  url: https://www.arvinas.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.arvinas.com/terms-of-use/
+- type: DomainSecurity
+  url: security/arvinas-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
